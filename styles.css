@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
     font-family: "Roboto", sans-serif;
-    /* outline: 2px solid red; */
 }
 
 .header {
@@ -32,18 +31,26 @@ ul {
     padding: 60px;
     color: #F9FAF8;
     display: flex;
+    justify-content: space-around;
     gap: 20px;
-    align-items: center;
 }
 
-.hs-1, .img-placeholder {
+.hero-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+}
+
+.hs-1{
     flex: 1;
     height: 100px;
     width: 100px;
 }
 
-.img-placeholder {
-    background-color: #828385;
+    #hero-img {
+    width: 300px; 
+    height: 300px;
     padding: 40px;
     margin: 40px;
 
@@ -52,6 +59,54 @@ ul {
 button {
     background-color: #3882F6;
     color: #F9FAF8;
+    margin-top: 10px;
     padding: 5px 20px;
     border-radius: 5px;
+    width: 100px;
+}
+
+.random-section {
+    margin: 30px auto 70px;
+}
+
+.random-header {
+text-align: center;
+margin-bottom: 32px;
+}
+
+.icon-images{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 18px;
+
+}
+
+.icons{
+    max-width: 200px;
+}
+
+.thors-quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+    height: 200px;
+    padding: 60px;
+}
+
+/* .icons {
+    border: 3px solid #3882F6;
+    height: 100px;
+    width: 100px;
+} */
+
+#quote-text {
+    margin-left: 300px;
+    width: 1000px;
+}
+
+#quote-name {
+ text-align: end;
+ margin-right: 100px;
 }
